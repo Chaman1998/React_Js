@@ -1,13 +1,16 @@
 import { useState } from "react";
 
 function App() {
-  let [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(0);
 
   // let counter = 5;
 
   const addValue = () => {
     // console.log("Clicked",Math.random());
     if (counter < 20) {
+      setCounter(counter + 1);
+      setCounter(counter + 1);
+      setCounter(counter + 1);
       setCounter(counter + 1);
     }
     // console.log(counter);
